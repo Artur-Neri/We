@@ -262,7 +262,7 @@ li {
 }
 
 header {
-  height: 80vh;
+  height: 70vh;
   position: relative;
 }
 
@@ -322,4 +322,23 @@ header:after {
 
 .credit {
   font-style: italic;
+}
+
+
+@media only screen and (max-width: 1830px) {
+  .main-photo {
+    background: url(../images/primeira.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 30em 5em rgba(255,255,255,.5);
+    height: 20em;
+      left: 100px;
+    position: absolute;
+      /* top: calc(50% - 25.5em); */
+    width: 20em;
+  }
+  .secondary-photo {
+    display: none;
+  }
 }
