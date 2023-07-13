@@ -316,7 +316,7 @@ header:after {
   height: 30em;
     right: 100px;
   position: absolute;
-    bottom: 50px;
+    bottom: 0px;
   width: 30em;
 }
 
