@@ -314,9 +314,9 @@ header:after {
   border-radius: 50%;
   box-shadow: 0 0 30em 5em rgba(255,255,255,.5);
   height: 30em;
-    left: 1300px;
+    right: 100px;
   position: absolute;
-    top: 400px;
+    top: 300px;
   width: 30em;
 }
 
@@ -325,20 +325,21 @@ header:after {
 }
 
 
-@media only screen and (max-width: 1830px) {
+@media only screen and (max-width: 1000px) {
   .main-photo {
     background: url(../images/primeira.png);
     background-position: center;
     background-size: cover;
     border-radius: 50%;
     box-shadow: 0 0 30em 5em rgba(255,255,255,.5);
-    height: 20em;
+    height: 27em;
       left: 100px;
     position: absolute;
-      /* top: calc(50% - 25.5em); */
-    width: 20em;
+    width: 27em;
   }
+
   .secondary-photo {
-    display: none;
+    top: 960px;
   }
+
 }
