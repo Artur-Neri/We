@@ -316,7 +316,7 @@ header:after {
   height: 30em;
     right: 100px;
   position: absolute;
-    top: 300px;
+    bottom: 50px;
   width: 30em;
 }
 
@@ -339,7 +339,6 @@ header:after {
   }
 
   .secondary-photo {
-    top: 960px;
   }
 
 }
